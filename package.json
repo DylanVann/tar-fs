@@ -1,5 +1,5 @@
 {
-  "name": "tar-fs",
+  "name": "@dylanvann/tar-fs",
   "version": "2.0.0",
   "description": "filesystem bindings for tar-stream",
   "dependencies": {
