@@ -2,6 +2,9 @@
   "name": "@dylanvann/tar-fs",
   "version": "2.0.0",
   "description": "filesystem bindings for tar-stream",
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "chownr": "^1.1.1",
     "mkdirp": "^0.5.1",
