@@ -302,7 +302,8 @@ exports.extract = function (cwd, opts) {
 
     validate(xfs, dir, path.join(cwd, '.'), function (err, valid) {
       if (err) return next(err)
-      if (!valid) return next(new Error(dir + ' is not a valid path'))
+      // We're doing bad things.
+      // if (!valid) return next(new Error(dir + ' is not a valid path'))
 
       mkdirfix(dir, {
         fs: xfs, own: own, uid: header.uid, gid: header.gid
